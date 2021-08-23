@@ -1,0 +1,55 @@
+{
+  "workbench.colorTheme": "Mayukai Mirage Gruvbox Darktooth",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "workbench.sideBar.location": "right",
+  "explorer.openEditors.visible": 0,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "npm.scriptExplorerAction": "run",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "npm-intellisense.importES6": true,
+  "npm-intellisense.importQuotes": "'",
+  "codestream.email": "jfchavarrom@unal.edu.co",
+  "workbench.colorCustomizations": {
+    //"[Mayukai Dark]": { "editor.background": "#FFF" }
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.external.linuxExec": "tilix",
+  //"python.experiments.optOutFrom": ["pythonJediLSP"],
+  "python.languageServer": "Pylance",
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "snyk.token": "815aa351-7e7d-4bcb-a3ac-eb41d4a22155",
+  "snyk.uploadApproved": true,
+  "snyk.yesWelcomeNotification": false,
+  "snyk.advancedMode": true,
+  "snyk.codeEnabled": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  }
+}
